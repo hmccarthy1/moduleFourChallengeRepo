@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+main {
+    flex-direction: .5;
+    align-self: center;
+    margin-top: 5%;
+}
+
+main h1 {
+
+    text-align: center;
+
+}
