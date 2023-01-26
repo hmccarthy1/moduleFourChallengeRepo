@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
+    <title>Coding Quiz</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   
@@ -12,24 +12,41 @@
     
     <header> 
 
-        <button class="highScores">View high scores</button>
-        <h1>Timer</h1>
+        <h2 id="highScores">View high scores</h2>
+        <h2 id="timeLeft">Time: 0</h2>
 
 
     </header>
        
     <main>
-        <h1> Module 4 coding challege </h1>
-        <h2>Try to answer coding challenges to see how well you stack up against your previous attempts
+        <h1 id="challengeHeader"> Coding Quiz Challenge </h1>
+        <h2 id="challengeDescription">
+            Try to answer the following code-related questions within the time limit. 
+            Keep in mind that incorrect answers will penalize your score/time by 10 seconds!
 
         </h2>
         <!-- this unordered list will be hidden by default, will only appear once the quiz is started -->
-        <ul>
-            <li class="question1">question 1</li>
-            <li class="question2">question 2</li>
-            <li class="question3">question 3</li>
-            <li class="question4">question 4</li>
+        <ul id="questionList">
+            <h1 id = "questionPrompt"></h1>
+            <li id="choiceA" data-attr="A">question 1</li>
+            <li id="choiceB" data-attr="B">question 2</li>
+            <li id="choiceC" data-attr="C">question 3</li>
+            <li id="choiceD" data-attr="D">question 4</li>
         </ul>
+        <h2 id="finalScore"></h2>
+        <section class="userInput" id="userInput">
+            <h3>Enter your initials: </h3>
+            <input type="text" id="initials">
+            <button id="submitBtn">submit</button>
+        </section>
+        <section class="reset">
+            <button id="goBack"> Go Back </button>
+            <button id="clearHighScores">Clear High Scores</button>
+        </section>
+        <h3 id="feedbackText"></h3>
+        <button id="startBtn">
+            Start Quiz
+        </button>
 
     </main>
        

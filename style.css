@@ -11,13 +11,69 @@ header {
 }
 
 main {
-    flex-direction: .5;
+    flex-grow: .5;
+    max-width: 65%;
+    flex-shrink: 1;
     align-self: center;
     margin-top: 5%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
 }
 
 main h1 {
 
     text-align: center;
 
+}
+
+main h2 {
+    text-align: center;
+}
+
+#questionList {
+    display: none;
+}
+
+#questionList li {
+    list-style-type: none;
+    width: 200px;
+    background-color: blue;
+    margin: 10pt;
+    height: 25pt;
+    border-radius: 10pt;
+    text-justify:auto;
+    padding: 3%;
+    color: white;
+    text-align: center;
+}
+
+#startBtn {
+
+    flex-grow: .5;
+    min-width: 15%;
+    align-self: center;
+    margin-top: 1%;
+    min-height: 35pt;
+    border-radius: 5pt;
+    background-color: rgb(181, 13, 227);
+    color: white;
+    
+    
+
+}
+
+#highScores {
+    color: rgb(228, 8, 228);
+    font-size: 16pt;
+    padding-left: 10pt;
+
+}
+
+#finalScore, #userInput {
+
+    display: none;
+}
+.reset {
+    display: none;
 }
