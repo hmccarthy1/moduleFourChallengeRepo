@@ -144,7 +144,7 @@ ulChoices.addEventListener('click', function(event) {
             feedbackText = "Correct!";
             feedbackDisplay.textContent = feedbackText;
            
-            if (questionIndex < questions.length) 
+            if (questionIndex < questions.length -1) 
             {
                 questionIndex++
                 updateQuestions();
