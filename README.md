@@ -10,8 +10,8 @@
 
 ## Link to deployed application
 
-![deployed app](https://hmccarthy1.github.io/moduleFourChallengeRepo/)
+[deployed app](https://hmccarthy1.github.io/moduleFourChallengeRepo/)
 
 ## Link to repository
 
-![Link to repo](https://github.com/hmccarthy1/moduleFourChallengeRepo)
+[Link to repo](https://github.com/hmccarthy1/moduleFourChallengeRepo)
